@@ -1,5 +1,6 @@
+package eigenerstuff;
 
-public class test1 {
+public class Wurzel {
 	public static int wurzel(int zahl) {
 		int golem = 1;
 		while(golem<=zahl) {
