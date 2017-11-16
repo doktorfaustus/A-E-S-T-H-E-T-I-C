@@ -245,33 +245,8 @@ a) in Deutschland gültige Formeln
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-u_{0}=11,8\frac{v\text{²}}{r}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-regu=6,5\frac{v\text{²}}{r}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-u_{f,max}=130mm\rightarrow u_{min}=11,8\frac{v\text{²}}{r}-130mm
-\]
-
+\begin_inset Formula $\begin{gathered}u_{0}=11,8\frac{v\text{²}}{r}regu=6,5\frac{v\text{²}}{r}u_{f,max}=130mm\rightarrow u_{min}=11,8\frac{v\text{²}}{r}-130mm\end{gathered}
+$
 \end_inset
 
 
@@ -281,29 +256,41 @@ u_{f,max}=130mm\rightarrow u_{min}=11,8\frac{v\text{²}}{r}-130mm
 Aufgabe 4
 \end_layout
 
+\begin_layout Subsection*
+Abrückmaß bestimmen
+\end_layout
+
 \begin_layout Standard
-Überhöhungsfehlbetrag 
-\begin_inset Formula $u_{f}=u_{0}-u=$
-\end_inset
+Überhöhungsfehlbetrag: 
+\begin_inset Formula 
+\[
+u_{f}=u_{0}-u=11,8*\frac{v\text{²}}{r}-150mm=11,8*\frac{(145km/h)\text{²}}{1000m}-150mm=98,1mm
+\]
 
-
-\begin_inset Formula $11,8*\frac{v\text{²}}{r}-150mm=11,8*\frac{(145km/h)\text{²}}{1000m}-150mm=98,1mm$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Übergangsbogenlänge 
-\begin_inset Formula $l_{U}=4*v_{e}*\frac{\triangle u_{f}}{1000}=4*145km/h*\frac{98,1mm}{1000}=56,9m$
+Übergangsbogenlänge: 
+\begin_inset Formula 
+\[
+l_{U}=4*v_{e}*\frac{\triangle u_{f}}{1000}=4*145km/h*\frac{98,1mm}{1000}=56,9m
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Überhöhungsrampenlänge 
-\begin_inset Formula $l_{R}=10*v_{e}*\frac{\triangle u}{1000}=1450km/h*\frac{150mm}{1000}=217,5m$
+Überhöhungsrampenlänge: 
+\begin_inset Formula 
+\[
+l_{R}=10*v_{e}*\frac{\triangle u}{1000}=1450km/h*\frac{150mm}{1000}=217,5m
+\]
+
 \end_inset
 
 
@@ -319,6 +306,42 @@ Maßgebend daher die Überhöhungsrampenlänge, das Abrückmaß ergibt sich zu
 f=\frac{l_{R}\text{²}}{24*r}=\frac{(217,5m)\text{²}}{24*1000m}=1,97m
 \]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Vergleich mit Regelausführung
+\end_layout
+
+\begin_layout Standard
+???
+\end_layout
+
+\begin_layout Section*
+Aufgabe 5
+\end_layout
+
+\begin_layout Standard
+Radius außenliegender Kreis 
+\begin_inset Formula $r_{2}=r_{1}+4m=3000m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abrückmaß 
+\begin_inset Formula $f=2m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Länge des Übergangsbogens 
+\begin_inset Formula $l_{u}=\sqrt{24*f*r}=\sqrt{24*2m*3004m}=379,72m$
 \end_inset
 
 
