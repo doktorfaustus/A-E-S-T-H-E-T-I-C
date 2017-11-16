@@ -196,5 +196,49 @@ e) Seitenbeschleunigung und Ruck berechnen
 
 \end_layout
 
+\begin_layout Section*
+Aufgabe 2
+\end_layout
+
+\begin_layout Standard
+Bei 
+\begin_inset Formula $v_{e}=160km/h$
+\end_inset
+
+ ist noch kein Übergangsbogen notwendig.
+ Der Mindestradius ergibt sich aus
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r=\frac{11,8*v\text{²}}{u+153*a_{q}};v=160km/h;u=0;a_{q}=0,65m/s\text{²}
+\]
+
+\end_inset
+
+zu 
+\begin_inset Formula $r=3037,5m$
+\end_inset
+
+.
+ Daraus folgt für die Länge der gesamtem Gleisverziehung:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l_{v}=2*\sqrt{r*\triangle e}=2*\sqrt{3037,5m*7,5m}=301,87m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \end_body
 \end_document
