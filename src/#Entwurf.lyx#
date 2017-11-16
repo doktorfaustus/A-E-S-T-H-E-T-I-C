@@ -269,8 +269,18 @@ regu=6,5\frac{v\text{²}}{r}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-u_{f,max}=130mm\rightarrow u_{min}=11,8\frac{v\text{²}}{r}-130mm
+u_{f,max}=130mm
 \]
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
