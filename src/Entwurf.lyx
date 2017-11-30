@@ -172,6 +172,11 @@ v=\sqrt{\frac{(-45,5+153*0,85)*270,9}{11,8}}=44,05\frac{km}{h}
 
 \end_layout
 
+\begin_layout Standard
+Daraus ergibt sich eine Höchstgeschwindigkeit von 40 km/h für den Kreuzungsberei
+ch.
+\end_layout
+
 \begin_layout Subsection*
 c) Krümmungsbild
 \end_layout
@@ -245,8 +250,122 @@ a) in Deutschland gültige Formeln
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\begin{gathered}u_{0}=11,8\frac{v\text{²}}{r}regu=6,5\frac{v\text{²}}{r}u_{f,max}=130mm\rightarrow u_{min}=11,8\frac{v\text{²}}{r}-130mm\end{gathered}
-$
+\begin_inset Formula 
+\[
+\begin{gathered}u_{0}=\frac{v\text{²}}{r}*\frac{s}{g}\end{gathered}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+regu=55\%*u_{o}=6,5\frac{v\text{²}}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{f,max}=\frac{1500mm}{9,81}*p_{zul}=130mm
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{min}=11,8\frac{v\text{²}}{r}-130mm,(u_{min}>0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Umrechnung für Indian Railways:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{0}=\frac{v\text{²}}{r}*\frac{1676mm+64mm}{9.81*3.6\text{²}}=13,68*\frac{v\text{²}}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+regu=55\%*u_{0}=7,52*\frac{v\text{²}}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{f,max}=-\frac{1740}{9,81}*0,85\frac{m}{s\text{²}}=150mm
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{min}=13,68*\frac{v\text{²}}{r}-150mm,(u_{min}>0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Überhöhungsfehlbetrag für Indian Railways bei 
+\begin_inset Formula $p_{zul}=0,65\frac{m}{s\text{²}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{f,max}=13,68*\frac{v\text{²}}{r}-\frac{1740}{9,81}*p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u_{f,max}=-\frac{1740}{9,81}*0,65\frac{m}{s\text{²}}=115mm
+\]
+
 \end_inset
 
 
@@ -297,7 +416,7 @@ l_{R}=10*v_{e}*\frac{\triangle u}{1000}=1450km/h*\frac{150mm}{1000}=217,5m
 \end_layout
 
 \begin_layout Standard
-Maßgebend daher die Überhöhungsrampenlänge, das Abrückmaß ergibt sich zu
+Maßgebend hier die Überhöhungsrampenlänge, das Abrückmaß ergibt sich zu
 \end_layout
 
 \begin_layout Standard

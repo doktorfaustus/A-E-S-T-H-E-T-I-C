@@ -172,6 +172,11 @@ v=\sqrt{\frac{(-45,5+153*0,85)*270,9}{11,8}}=44,05\frac{km}{h}
 
 \end_layout
 
+\begin_layout Standard
+Daraus ergibt sich eine Höchstgeschwindigkeit von 40 km/h für den Kreuzungsberei
+ch.
+\end_layout
+
 \begin_layout Subsection*
 c) Krümmungsbild
 \end_layout
@@ -245,33 +250,48 @@ a) in Deutschland gültige Formeln
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-u_{0}=11,8\frac{v\text{²}}{r}
-\]
-
+\begin_inset Formula $\begin{gathered}u_{0}=\frac{v\text{²}}{r}*\frac{s}{g},regu=6,5\frac{v\text{²}}{r}u_{f,max}=130mm\rightarrow u_{min}=11,8\frac{v\text{²}}{r}-130mm,(\end{gathered}
+u_{min}>0)$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-regu=6,5\frac{v\text{²}}{r}
-\]
+Umrechnung für Indian Railways:
+\end_layout
 
+\begin_layout Standard
+\begin_inset Formula $u_{0}=\frac{v\text{²}}{r}*\frac{1676mm}{9.81*3.6\text{²}}=13,18*\frac{v\text{²}}{r},regu=55\%*u_{0}=7,26*\frac{v\text{²}}{r}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-u_{f,max}=130mm\rightarrow u_{min}=11,8\frac{v\text{²}}{r}-130mm
-\]
+\begin_inset Formula $u_{f,max}=-\frac{1676}{9,81}*0,85\frac{m}{s\text{²}}=145mm\rightarrow u_{min}=13,18*\frac{v\text{²}}{r}-145mm,(u_{min}>0)$
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+Überhöhungsfehlbetrag für Indian Railways bei 
+\begin_inset Formula $p_{zul}=0,65\frac{m}{s\text{²}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u=13,18*\frac{v\text{²}}{r}-\frac{1676}{9,81}*p$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u=-\frac{1676}{9,81}*0,65\frac{m}{s\text{²}}=111mm$
 \end_inset
 
 
@@ -286,28 +306,36 @@ Abrückmaß bestimmen
 \end_layout
 
 \begin_layout Standard
-Überhöhungsfehlbetrag 
-\begin_inset Formula $u_{f}=u_{0}-u=$
-\end_inset
+Überhöhungsfehlbetrag: 
+\begin_inset Formula 
+\[
+u_{f}=u_{0}-u=11,8*\frac{v\text{²}}{r}-150mm=11,8*\frac{(145km/h)\text{²}}{1000m}-150mm=98,1mm
+\]
 
-
-\begin_inset Formula $11,8*\frac{v\text{²}}{r}-150mm=11,8*\frac{(145km/h)\text{²}}{1000m}-150mm=98,1mm$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Übergangsbogenlänge 
-\begin_inset Formula $l_{U}=4*v_{e}*\frac{\triangle u_{f}}{1000}=4*145km/h*\frac{98,1mm}{1000}=56,9m$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Überhöhungsrampenlänge 
-\begin_inset Formula $l_{R}=10*v_{e}*\frac{\triangle u}{1000}=1450km/h*\frac{150mm}{1000}=217,5m$
+Übergangsbogenlänge: 
+\begin_inset Formula 
+\[
+l_{U}=4*v_{e}*\frac{\triangle u_{f}}{1000}=4*145km/h*\frac{98,1mm}{1000}=56,9m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Überhöhungsrampenlänge: 
+\begin_inset Formula 
+\[
+l_{R}=10*v_{e}*\frac{\triangle u}{1000}=1450km/h*\frac{150mm}{1000}=217,5m
+\]
+
 \end_inset
 
 
